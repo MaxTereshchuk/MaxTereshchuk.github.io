@@ -1,58 +1,77 @@
 .div1 {
-    grid-area: header;
-    display: flex;
+    min-height: 15vh;
+    display: grid;
+    grid-template-columns: 1fr auto;
     justify-content: space-between;
     text-align: end;
+    align-items: center;
     background-color: cornflowerblue;
+}
+
+.main{
+    min-height: 85vh;
+    display: grid;
+    grid-template-columns: 80% 1fr;
 }
 
 .div6 {
-    grid-area: footer;
-    display: flex;
-    justify-content: space-between;
+    padding-left: 2%;
+    min-height: 15vh;
+    display: grid;
     text-align: end;
+    grid-template-columns: 1fr auto;
+    align-items: center;
     background-color: cornflowerblue;
 }
 
+.main-space{
+    display: grid;
+    grid-template-rows: 1fr min-content;
+}
+
+.main-content{
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: 25% 1fr;
+}
+
+.main-center{
+    display: grid;
+    width: 100%;
+    grid-template-rows: 1fr min-content;
+    justify-content: space-between;
+}
+
 .div4 {
-    grid-area: right_b;
+    display: grid;
     text-align: end;
     background-color: coral;
 }
 
 .div2 {
-    grid-area: left_b;
+    min-height: 100%;
+    padding: 0 15px;
     text-align: end;
     background-color: coral;
 }
 
 .div5 {
-    grid-area: center_s;
+    display: grid;
+    width: 100%;
+    grid-template-rows: 1fr min-content;
+    justify-content: center;
     text-align: center;
     background-color: greenyellow;
 }
 
 .div3 {
-    grid-area: center_b;
-    display: flex;
-    justify-content: flex-end;
+    display: grid;
+    width: 100%;
+    grid-template-rows: 1fr min-content;
+    text-align: end;
+    justify-content: end;
     align-items: center;
     background-color: white;
-}
-
-.main_grid{
-    display: grid;
-    grid-template-areas: 
-        'header header header'
-        'left_b center_b right_b'
-        'left_b center_b right_b'
-        'left_b center_s right_b'
-        'footer footer right_b'
-    ;
-    width: 100%;
-    height: 100%;
-    grid-template-rows: 20% 60% 20%;
-    grid-template-columns: 14% 72% 14%;
 }
 
 .center-img {
@@ -75,8 +94,8 @@ ul {
 
 .left-text {
     padding-left: 5%;
-    padding-top: 2%;
-    align-self: start;
+    display: flex;
+    justify-content: flex-start;
 }
 
 body {
