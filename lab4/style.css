@@ -1,0 +1,73 @@
+body{
+    display: grid;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.main{
+    display: grid;
+    justify-self: center;
+    max-width: 1100px;
+    min-width: 720px;
+    height: 900px;
+    min-height: 700px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+
+    grid-template-areas: 
+        'upper-text image1 image2'
+        'upper-text center-text image3'
+        'image4 lower-text lower-text'
+    ;
+}
+
+.upper-text{
+    grid-area: upper-text;
+    text-align: left;
+    margin: auto;
+    max-width: 300px;
+    margin: 0;
+    background-color: aqua;
+}
+
+.center-text{
+    grid-area: center-text;
+    margin: auto;
+    text-align: left;
+    max-width: 300px;
+}
+
+.lower-text{
+    grid-area: lower-text;
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+    background-color: orange;
+}
+
+.image1{
+    grid-area: image1;
+    position: relative;
+    max-height: 25vh;
+}
+
+.image2{
+    grid-area: image2;
+    position: relative;
+    max-height: 25vh;
+}
+
+.image3{
+    grid-area: image3;
+    position: relative;
+    max-height: 25vh;
+}
+
+.image4{
+    grid-area: image4;
+    position: relative;
+    max-height: 25vh;
+}
+
