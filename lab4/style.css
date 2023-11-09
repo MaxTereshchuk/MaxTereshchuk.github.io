@@ -2,17 +2,14 @@ body{
     display: grid;
     margin: 0;
     padding: 0;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 100px;
 }
 
 .main{
     display: grid;
     justify-self: center;
-    max-width: 1100px;
-    min-width: 720px;
-    height: 900px;
-    min-height: 700px;
+    width: 1000px;
+    height: 800px;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 33% 33% 33%;
 
@@ -24,50 +21,63 @@ body{
 }
 
 .upper-text{
+    display: grid;
     grid-area: upper-text;
-    text-align: left;
-    margin: auto;
-    max-width: 300px;
+    place-items: center;
+    width: 300px;
+    max-height: 500px;
     margin: 0;
-    background-color: aqua;
+    background-color: #14b6b8;
+    color: white;
 }
 
 .center-text{
+    display: grid;
     grid-area: center-text;
-    margin: auto;
-    text-align: left;
+    text-align: center;
+    place-items: center;
     max-width: 300px;
+    color: #14b6b8;
+    border: 2px solid #14b6b8;
+    margin-bottom: 25px;
+    font-size: 45px;
 }
 
 .lower-text{
     grid-area: lower-text;
-    max-width: 600px;
-    margin: auto;
+    height: 240px;
+    width: 630px;
     text-align: left;
-    background-color: orange;
+    background-color: #b34c4c;
+    color: white;
 }
 
 .image1{
     grid-area: image1;
     position: relative;
-    max-height: 25vh;
+    height: 25vh;
+    width: 300px;
 }
 
 .image2{
     grid-area: image2;
     position: relative;
     max-height: 25vh;
+    height: 25vh;
+    width: 300px;
 }
 
 .image3{
     grid-area: image3;
     position: relative;
-    max-height: 25vh;
+    height: 25vh;
+    width: 300px;
 }
 
 .image4{
     grid-area: image4;
     position: relative;
-    max-height: 25vh;
+    height: 25vh;
+    width: 300px;
 }
 
