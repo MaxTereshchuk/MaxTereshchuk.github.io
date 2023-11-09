@@ -25,38 +25,49 @@ body{
     grid-area: upper-text;
     place-items: center;
     width: 300px;
-    max-height: 500px;
-    margin: 0;
+    height: 500px;
+    padding-left: 5%;
+    padding-right: 5%;
     background-color: #14b6b8;
     color: white;
 }
+
+.text-font-u{
+    font-size: 40px;
+}
+
 
 .center-text{
     display: grid;
     grid-area: center-text;
     text-align: center;
     place-items: center;
-    max-width: 300px;
+    width: 315px;
     color: #14b6b8;
     border: 2px solid #14b6b8;
     margin-bottom: 25px;
     font-size: 45px;
+    margin-left: 10%;
 }
 
 .lower-text{
     grid-area: lower-text;
     height: 240px;
-    width: 630px;
+    width: 600px;
     text-align: left;
     background-color: #b34c4c;
     color: white;
+    margin-left: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .image1{
     grid-area: image1;
     position: relative;
     height: 25vh;
-    width: 300px;
+    width: 320px;
+    margin-left: 10%;
 }
 
 .image2{
@@ -64,20 +75,34 @@ body{
     position: relative;
     max-height: 25vh;
     height: 25vh;
-    width: 300px;
+    width: 320px;
+    margin-left: 15%;
 }
 
 .image3{
     grid-area: image3;
     position: relative;
     height: 25vh;
-    width: 300px;
+    width: 320px;
+    margin-left: 15%;
 }
 
 .image4{
     grid-area: image4;
     position: relative;
     height: 25vh;
-    width: 300px;
+    width: 330px;
+}
+
+.read-more{
+    margin-top: 5%;
+}
+
+.read-more-button{
+    background-color: white;
+    color: gray;
+    border: none;
+    font-size: 15px;
+    padding: 10px 20px;
 }
 
