@@ -1,0 +1,124 @@
+.div1 {
+    min-width: 100vw;
+    min-height: 15vh;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    justify-content: space-between;
+    text-align: end;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+
+.main{
+    min-width: 100vw;
+    min-height: 85vh;
+    display: grid;
+    grid-template-columns: 80% 1fr;
+}
+
+.div6 {
+    padding-left: 2%;
+    min-height: 15vh;
+    display: grid;
+    text-align: end;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+
+.main-space{
+    max-width: 80vw;
+    display: grid;
+    grid-template-rows: 1fr min-content;
+}
+
+.main-content{
+    flex-grow: 1;
+    max-width: 80vw;
+    display: grid;
+    grid-template-columns: 25% 1fr;
+}
+
+.main-center{
+    display: grid;
+    max-width: 60vw;
+    grid-template-rows: 1fr min-content;
+}
+
+.div4 {
+    display: grid;
+    max-width: 20vw;
+    text-align: end;
+    background-color: coral;
+}
+
+.div2 {
+    max-width: 20vw;
+    min-height: 85vh;
+    text-align: end;
+    background-color: coral;
+}
+
+.div5 {
+    display: grid;
+    max-width: 60vw;
+    grid-template-rows: 1fr min-content;
+    justify-content: center;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+.div3_mod {
+    display: grid;
+    max-width: 60vw;
+    grid-template-columns: 1fr auto;
+    text-align: end;
+    justify-content: end;
+    align-items: center;
+    background-color: white;
+}
+
+.div3 {
+    display: grid;
+    width: 100%;
+    text-align: end;
+    justify-content: end;
+    align-items: center;
+    background-color: white;
+}
+
+.center-img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom:-2%;
+  border-radius:20px; 
+  width: 30%;
+}
+
+ol {
+    list-style-position: inside; 
+    text-align: center;
+}
+
+ul {
+    list-style-position: inside; 
+    text-align: end;
+    margin-top: 60%;
+    margin-right: 2%;
+}
+
+.left-text {
+    padding-left: 5%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.text-up{
+    margin-bottom: 35%;
+}
+
+body {
+    height: 100vh;
+    max-width: 100vw;
+    margin: 0;
+  }
