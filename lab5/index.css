@@ -82,7 +82,6 @@
     display: grid;
     width: 100%;
     text-align: end;
-    justify-content: end;
     align-items: center;
     background-color: white;
 }
@@ -97,14 +96,11 @@
 
 ol {
     list-style-position: inside; 
-    text-align: center;
 }
 
 ul {
     list-style-position: inside; 
     text-align: end;
-    margin-top: 60%;
-    margin-right: 2%;
 }
 
 .left-text {
@@ -113,9 +109,6 @@ ul {
     justify-content: flex-start;
 }
 
-.text-up{
-    margin-bottom: 35%;
-}
 
 body {
     height: 100vh;
