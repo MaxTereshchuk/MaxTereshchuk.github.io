@@ -134,13 +134,14 @@ body {
     }
 
     .div2 {
-        max-height: 50vh; 
+        height: 66vh; 
     }
 }
 
 @media only screen and (max-width: 1200px) {
     .main {
         grid-template-columns: 1fr;
+        height: 100vh;
     }
 
     .main-content,
@@ -168,6 +169,6 @@ body {
     }
 
     .div2 {
-        max-height: 40vh; 
+        max-height: 67vh; 
     }
 }
