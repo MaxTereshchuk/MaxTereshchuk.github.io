@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.flag {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+    margin-top: 20px;
+}
+
+.flag-position::before, 
+.flag-position::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+}
+
+.flag-position::before {
+    width: 30px;
+    height: 100px;
+    top: 25px;
+    left: 60px;
+}
+
+.flag-position::after {
+    width: 100px;
+    height: 30px;
+    top: 60px;
+    left: 25px;
+}
+
+.flag-transform::before, 
+.flag-transform::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+}
+
+.flag-transform::before {
+    width: 30px;
+    height: 100px;
+    top: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.flag-transform::after {
+    width: 100px;
+    height: 30px;
+    top: 50%;
+    left: 24px;
+    transform: translateY(-50%);
+}

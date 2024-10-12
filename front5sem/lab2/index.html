@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>Lab 2</title>
+    <style>
+        td {
+            width: 110px;
+            height: 20px;
+        }
+
+        tr:nth-child(1), tr:nth-child(2) {
+            background-color: #028f8f; 
+            color: #171717;
+        }
+        tr:nth-child(2){
+            background-color: #f5f502; 
+            color: #6042FF;
+        }
+        tr:nth-child(1):hover, tr:nth-child(2):hover {
+            background-color: #f5f502; 
+            color: #6042FF;
+        }
+        tr:nth-child(2):hover{
+            background-color: #028f8f; 
+            color: #171717;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td rowspan="3">Терещук</td>
+            <td>Максим</td>
+            <td rowspan="3">Русланович</td>
+            <td></td>
+        </tr>    
+        <tr>
+            <td>ІП-23</td>
+            <td colspan="2">ЛР-2 Варіант 2</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="2"></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <div class="container">
+        <div class="flag flag-position"></div>
+
+        <div class="flag flag-transform"></div>
+    </div>
+
+</body>
+</html>
