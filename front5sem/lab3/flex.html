@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 100%;
+        }
+
+        .img-upper, .text-upper, .img-bottom, .text-center {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .img-upper, .text-upper {
+            width: 50%;
+            height: 40%;
+        }
+
+        .img-upper {
+            background-color: #3361ff;
+        }
+
+        .text-upper {
+            background-color: #33bbff;
+        }
+
+        .text-center {
+            width: 100%;
+            height: 30%;
+            background-color: #33ffd1;
+        }
+
+        .img-bottom {
+            width: 100%;
+            height: 30%;
+            background-color: #33bbff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="img-upper">Img.</div>
+    <div class="text-upper">Text</div>
+    <div class="text-center"><a href="./index.html"><h2>Float</h2></a></div>
+    <div class="img-bottom">Img.</div>
+</div>
+
+</body>
+</html>
